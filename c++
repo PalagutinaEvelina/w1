@@ -11,10 +11,10 @@ int main() {
         cin >> number;
 
         if (number == 0) {
-            break; // завершение цикла при вводе 0
+            break; 
         }
 
-        sum += number; // добавляем число к сумме
+        sum += number;
     }
 
     cout << "[ + ] Сумма: " << sum << endl;
